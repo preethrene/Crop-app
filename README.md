@@ -64,9 +64,9 @@ The AI Crop Yield Prediction System leverages machine learning to provide crop y
 1. **`data/':** Contains CSV datasets used for training and testing
 2. **'model/train_model.py':** Script to train the Random Forest Regressor
 3. **'model/crop_yield_model.pkl':** Serialized model file
-4.**'notebooks/':** Contains EDA and training notebooks
-5.**'app/app.py':** Streamlit web app for user interaction
-6.**'app/utils.py':** Helper functions for data preprocessing and prediction
+4. **'notebooks/':** Contains EDA and training notebooks
+5. **'app/app.py':** Streamlit web app for user interaction
+6. **'app/utils.py':** Helper functions for data preprocessing and prediction
 
 ## Usage
 
