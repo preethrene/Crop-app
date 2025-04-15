@@ -65,27 +65,27 @@ def main():
     if st.button("Predict Crop Yield"):
         input_data = [temperature, humidity, rainfall, soil_ph, fertilizer]
         prediction = predict_yield(model, input_data)
-        st.success(f"🌿 **Predicted Crop Yield:** {prediction:.2f} kg/ha")
+        st.success(f" **Predicted Crop Yield:** {prediction:.2f} kg/ha")
 
     if st.button("Save Model"):
         joblib.dump(model, "crop_yield_model.pkl")
-        st.success("✅ Model saved successfully!")
+        st.success(" Model saved successfully!")
 
     if st.button("Load Model"):
         loaded_model = joblib.load("crop_yield_model.pkl")
-        st.info("📂 Model loaded successfully!")
+        st.info(" Model loaded successfully!")
         loaded_prediction = predict_yield(loaded_model, [temperature, humidity, rainfall, soil_ph, fertilizer])
-        st.success(f"🌿 **Predicted Yield (Loaded Model):** {loaded_prediction:.2f} kg/ha")
+        st.success(f" **Predicted Yield (Loaded Model):** {loaded_prediction:.2f} kg/ha")
 
 if __name__ == "__main__":
     main()
 """
 
-# ✅ Save the code with UTF-8 encoding to avoid UnicodeEncodeError
+# Save the code with UTF-8 encoding to avoid UnicodeEncodeError
 with open("crop_yield_app.py", "w", encoding="utf-8") as file:
     file.write(code)
 
-print("✅ crop_yield_app.py file saved successfully with UTF-8 encoding.")
+print("crop_yield_app.py file saved successfully with UTF-8 encoding.")
 import subprocess
 
 # Run the Streamlit app with subprocess
