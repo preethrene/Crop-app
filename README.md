@@ -44,7 +44,7 @@ The AI Crop Yield Prediction System leverages machine learning to provide crop y
 ### Prerequisites:
 - Python 3.8+
 - pip (Python package installer)
-
+- Required libraries:  `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `joblib`, `streamlit`
 ### Steps
 1. Clone the repository:
    ```bash
