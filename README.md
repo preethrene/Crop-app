@@ -49,7 +49,7 @@ The AI Crop Yield Prediction System leverages machine learning to provide crop y
 1. Clone the repository:
    ```bash
    git clone https://github.com/preethrene/ai-crop-yield-prediction.git
-   cd ai-crop-yield-prediction
+   cd preethrene-ai-crop-yield-prediction
    ```
 2. Install dependencies:
    ```bash
