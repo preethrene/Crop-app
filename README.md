@@ -5,7 +5,7 @@ An AI-powered crop yield prediction system designed to assist farmers and agricu
 ## Directory Structure
 
 ```
-ai-crop-yield-prediction/
+preethrene-ai-crop-yield-prediction/
 │
 ├── data/                          # Sample datasets for soil, weather, and fertilizer
 │   ├── soil_conditions.csv
@@ -48,8 +48,8 @@ The AI Crop Yield Prediction System leverages machine learning to provide crop y
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/prathapprr/food-waste-optimization.git
-   cd prathapprr-food-waste-optimization
+   git clone https://github.com/preethrene/ai-crop-yield-prediction.git
+   cd ai-crop-yield-prediction
    ```
 2. Install dependencies:
    ```bash
