@@ -95,7 +95,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For any questions or suggestions, feel free to reach out:
 - **Developer:** Preetham N
-- **Email:** [your-email@example.com]
+- **Email:** [hemaranes@example.com]
 - **Location:** Bengaluru, Karnataka
 
 ---
